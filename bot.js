@@ -32,10 +32,10 @@ client.user.setGame()
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-:rose: سيرفر جميل ومرتب بس مظلوم بالتفاعل :rose: 
+:rose: واللهي هم عملين جيف اواي علي 300 الف كريديت وانا نفسي افوز  :rose: 
 
-*:small_orange_diamond: السيرفر عادة جديد ووصل 102ومظلوم بالدعم ونبي نوصله 500 عشان نسوي جيف اواي علي كردتس وحسابات جميلة وشكراً.. :rose: :small_orange_diamond: *
-                               [ https://discord.gg/nm852f7 ] 
+*:small_orange_diamond: واللهي انت محترم وهتخش بالسيرفر بشان خاطري :rose: :small_orange_diamond: *
+                               [ https://discord.gg/2V8vnCQ ] 
  :small_blue_diamond: الرابط : :small_blue_diamond: ... [ ${member}  ]
 **`)
 }).catch(console.error)
@@ -46,12 +46,13 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-:rose: سيرفر جميل ومرتب بس مظلوم بالتفاعل :rose: 
+:rose: واللهي هم عملين جيف اواي علي 300 الف كريديت وانا نفسي افوز  :rose: 
 
-*:small_orange_diamond: السيرفر عادة جديد ووصل 102ومظلوم بالدعم ونبي نوصله 500 عشان نسوي جيف اواي علي كردتس وحسابات جميلة وشكراً.. :rose: :small_orange_diamond: *
-                               [ https://discord.gg/nm852f7 ] 
+*:small_orange_diamond: واللهي انت محترم وهتخش بالسيرفر بشان خاطري :rose: :small_orange_diamond: *
+                               [ https://discord.gg/2V8vnCQ ] 
  :small_blue_diamond: الرابط : :small_blue_diamond: ... [ ${member}  ]
-**`)  
+**`)
 }).catch(console.error)
+
 })
 client.login(process.env.BOT_TOKEN);
